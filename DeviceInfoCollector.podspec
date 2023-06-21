@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DeviceInfoCollector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DeviceInfoCollector.'
+  s.summary          = 'A library for collecting device preferences and details.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'The DeviceInfoCollector library allows you to collect device identification and preference data'
                        DESC
 
   s.homepage         = 'https://github.com/Ahsan Hayat/DeviceInfoCollector'
@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Ahsan Hayat/DeviceInfoCollector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'DeviceInfoCollector/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
   
   # s.resource_bundles = {
   #   'DeviceInfoCollector' => ['DeviceInfoCollector/Assets/*.png']

@@ -46,7 +46,7 @@
 		3C7867BF8BA8500B224AD283530386DD /* Pods-DeviceInfoCollector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceInfoCollector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48A95DBD72666F5D95E20070683DBDB8 /* Pods-DeviceInfoCollector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeviceInfoCollector_Tests.modulemap"; sourceTree = "<group>"; };
 		5C223548053DE04BAB4AF3D0B6A071A8 /* Pods-DeviceInfoCollector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceInfoCollector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		63E23735AB24EF9ED45C41879C2E6669 /* Pods-DeviceInfoCollector_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DeviceInfoCollector_Example"; path = Pods_DeviceInfoCollector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E23735AB24EF9ED45C41879C2E6669 /* Pods_DeviceInfoCollector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceInfoCollector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B873B2D5A14DCD3B6FE047065EA0C32 /* DeviceInfoCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceInfoCollector.debug.xcconfig; sourceTree = "<group>"; };
 		6E169159520C62675F17A60898861807 /* DeviceInfoCollector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DeviceInfoCollector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		725FC1B63421E467DD2838483A3DCD06 /* Pods-DeviceInfoCollector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceInfoCollector_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		B81B502F5B45F80C58F36B4F2722B3D6 /* Pods-DeviceInfoCollector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceInfoCollector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B97985177091F3796BFA709F723C7C11 /* Pods-DeviceInfoCollector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceInfoCollector_Tests-dummy.m"; sourceTree = "<group>"; };
 		C7A171F1AC0B5382B532EAB51F470CB8 /* Pods-DeviceInfoCollector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeviceInfoCollector_Example.modulemap"; sourceTree = "<group>"; };
-		CBE68F13463CFECE9DAF0326901193D2 /* Pods-DeviceInfoCollector_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DeviceInfoCollector_Tests"; path = Pods_DeviceInfoCollector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE68F13463CFECE9DAF0326901193D2 /* Pods_DeviceInfoCollector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceInfoCollector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD383AF6680977F2BB15B1634A92E606 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D51D447AAD83F9B02C52AB62F78775DB /* DeviceInfoCollector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceInfoCollector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72DB7365802D7E5EEEE06F469E8E687 /* DeviceInfoCollector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceInfoCollector-Info.plist"; sourceTree = "<group>"; };
@@ -147,8 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				D51D447AAD83F9B02C52AB62F78775DB /* DeviceInfoCollector.framework */,
-				63E23735AB24EF9ED45C41879C2E6669 /* Pods-DeviceInfoCollector_Example */,
-				CBE68F13463CFECE9DAF0326901193D2 /* Pods-DeviceInfoCollector_Tests */,
+				63E23735AB24EF9ED45C41879C2E6669 /* Pods_DeviceInfoCollector_Example.framework */,
+				CBE68F13463CFECE9DAF0326901193D2 /* Pods_DeviceInfoCollector_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-DeviceInfoCollector_Tests";
 			productName = Pods_DeviceInfoCollector_Tests;
-			productReference = CBE68F13463CFECE9DAF0326901193D2 /* Pods-DeviceInfoCollector_Tests */;
+			productReference = CBE68F13463CFECE9DAF0326901193D2 /* Pods_DeviceInfoCollector_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		663403EB99EA467B12F145F0AAC2EBF4 /* DeviceInfoCollector */ = {
@@ -314,7 +314,7 @@
 			);
 			name = "Pods-DeviceInfoCollector_Example";
 			productName = Pods_DeviceInfoCollector_Example;
-			productReference = 63E23735AB24EF9ED45C41879C2E6669 /* Pods-DeviceInfoCollector_Example */;
+			productReference = 63E23735AB24EF9ED45C41879C2E6669 /* Pods_DeviceInfoCollector_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -436,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector.modulemap";
 				PRODUCT_MODULE_NAME = DeviceInfoCollector;
@@ -469,7 +469,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DeviceInfoCollector/DeviceInfoCollector.modulemap";
 				PRODUCT_MODULE_NAME = DeviceInfoCollector;
@@ -501,7 +501,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DeviceInfoCollector_Example/Pods-DeviceInfoCollector_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DeviceInfoCollector_Example/Pods-DeviceInfoCollector_Example.modulemap";
@@ -595,7 +595,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DeviceInfoCollector_Example/Pods-DeviceInfoCollector_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DeviceInfoCollector_Example/Pods-DeviceInfoCollector_Example.modulemap";
@@ -629,7 +629,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DeviceInfoCollector_Tests/Pods-DeviceInfoCollector_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DeviceInfoCollector_Tests/Pods-DeviceInfoCollector_Tests.modulemap";
@@ -662,7 +662,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DeviceInfoCollector_Tests/Pods-DeviceInfoCollector_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DeviceInfoCollector_Tests/Pods-DeviceInfoCollector_Tests.modulemap";
