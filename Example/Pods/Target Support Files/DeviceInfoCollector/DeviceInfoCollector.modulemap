@@ -1,0 +1,6 @@
+framework module DeviceInfoCollector {
+  umbrella header "DeviceInfoCollector-umbrella.h"
+
+  export *
+  module * { export * }
+}

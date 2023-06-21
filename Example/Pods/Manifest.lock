@@ -1,0 +1,16 @@
+PODS:
+  - DeviceInfoCollector (0.1.0)
+
+DEPENDENCIES:
+  - DeviceInfoCollector (from `../`)
+
+EXTERNAL SOURCES:
+  DeviceInfoCollector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceInfoCollector: 28b44a68ebf0bfd80acbd226a6ab0ed83bce9815
+
+PODFILE CHECKSUM: 5c6bc8b9c3e33dc1cf3f86bbd55cc131d3d02f00
+
+COCOAPODS: 1.12.1
