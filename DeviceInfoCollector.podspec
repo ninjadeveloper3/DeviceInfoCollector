@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'The DeviceInfoCollector library allows you to collect device identification and preference data'
                        DESC
 
-  s.homepage         = 'https://github.com/Ahsan Hayat/DeviceInfoCollector'
+  s.homepage         = 'https://github.com/ninjadeveloper3/DeviceInfoCollector'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ahsan Hayat' => 'ahsan.hayyat@devbatch.com' }
-  s.source           = { :git => 'https://github.com/Ahsan Hayat/DeviceInfoCollector.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ninjadeveloper3/DeviceInfoCollector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'

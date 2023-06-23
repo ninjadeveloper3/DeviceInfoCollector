@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DeviceInfoCollector
 
 class ViewController: UIViewController {
 

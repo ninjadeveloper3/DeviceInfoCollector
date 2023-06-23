@@ -5,148 +5,86 @@
 //  Created by Ahsan on 21/06/2023.
 //
 
-struct DeviceName {
-    let name: String
-}
-
-struct TimeStamp {
+public struct TimeStamp {
     let dateTime: String
 }
 
-struct ColorTheme {
-    let themeName: String
-}
-
-struct DeviceCountry {
-    let countryName: String
-}
-
-struct OSVersion {
+public struct UIDeviceInfo {
+    let name: String
     let version: String
+    let model: String
+    let isSimulator: Bool
+    let isJailBroken: Bool
 }
 
-struct DeviceLangauge {
-    let lang: String
+public struct DeviceLocale {
+    let language: String
+    let country: String
+    let calendar: String
+    let timeOffset: String
 }
 
-struct DeviceLocation {
-    let location: String
-}
-
-struct DeviceOrientation {
+public struct DeviceSpecifications {
+    let themeColor: String
     let orientation: String
 }
 
-struct DeviceStorage {
-    let internalStorage: String
-    let externalStorage: String
+public struct DeviceAccessibility {
+    let isGuidedAccessEnabled: Bool
+    let isVPNConnected: Bool
+    let isVoiceOver: Bool
+    let isClosedCaptioning: Bool
+    let isDarkerSystemColors: Bool
+    let isMicroPhoneEnabled: Bool
 }
 
-struct DeviceFonts {
-    let availableFonts: [String]
+public struct DeviceInformation {
+    let kernelName: String
+    let kernelVer: String
+    let cpuInfo: String
+    let kernelArch: String
+    let BootTime: String
+    let internelStorage: String
+    let RAM: String
 }
 
-struct DeviceTimeZone {
-    let timeZone: String
+public struct DeviceScreenInformation {
+    let width: Double
+    let height: Double
+    let resoulution: String
 }
 
-struct DeviceModel {
-    let model: String
+public struct DeviceAvailbility {
+    let iCloudAvailable: Bool
+    let VoIPStatus: Bool
+    let inAppPurchaseAllowed: Bool
+    
 }
 
-struct GuidedAccess {
-    let guidedAccess: String
+public struct DeviceIdentifiers {
+    let idfv: String
+    let idfa: String
+    let randomKeyChain: String
 }
 
-struct DeviceKeyboards {
+public struct DeviceNetworkInformatoin {
+    let ssid: String
+    let ip: String
+    let carrierName: String
+}
+
+public struct DeviceKeyboards {
     let installedKeyboards: [String]
 }
 
-struct DeviceVPN{
-    let vpnConnection: String
+public struct DeviceLocation {
+    let location: String
 }
 
-struct kernelArch {
-    let arch: String
-}
-
-struct KernelName {
-    let archName: String
-}
-
-struct kernelVersion {
-    let archVersion: String
-}
-
-struct CPUInfo {
-    let cpuCount: String
-}
-
-struct DeviceScreen {
-    let screeninfo: String
-}
-
-struct DeviceBootTime {
-    let bootTime: String
-}
-
-struct CheckDevice {
-    let isSimulator: String
-    let isjailBroken: String
-}
-
-struct DeviceRAM {
-    let ram: String
-}
-
-struct DeviceMicroPhone {
-    let monoAudioEnabled: String
-}
-
-struct DeviceCarrierName {
-    let serviceProvider: String
-}
-
-struct DeviceVoiceOver {
-    let voiceOverEnabled: String
-    let captionEnabled: String
-    let systemColorEnabled: String
+public struct DeviceFonts {
+    let availableFonts: [String]
 }
 
 struct DeviceContacts {
     let contacts: [String]
 }
-
-struct DeviceInAppPurchase {
-    let purchaseAllowed: String
-}
-
-struct IDFA {
-    let identifier: String
-}
-
-struct IDFV {
-    let identifier: String
-}
-
-struct DeviceSecureKey {
-    let key: String
-}
-
-struct DeviceNetworkInformation {
-    let ssid: String
-    let ip: String
-}
-
-struct DeviceiCloud {
-    let token: String
-}
-
-struct CalendarType {
-    let name: String
-}
-
-struct DeviceVoIP {
-    let status: String
-}
-

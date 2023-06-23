@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1F6DF7F87695E209ECC0049E5D8B34A6 /* DeviceInfoCollector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A8EC572BC678A781959301226A340A /* DeviceInfoCollector-dummy.m */; };
 		78C9B82A2A42DCF000DBCF84 /* DICModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B8292A42DCF000DBCF84 /* DICModels.swift */; };
+		78C9B82C2A42FF2A00DBCF84 /* DICKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B82B2A42FF2A00DBCF84 /* DICKeyManager.swift */; };
+		78C9B82E2A42FF5E00DBCF84 /* DICJailBrokenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B82D2A42FF5E00DBCF84 /* DICJailBrokenHelper.swift */; };
+		78C9B8302A42FFDA00DBCF84 /* DICLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B82F2A42FFDA00DBCF84 /* DICLocationManager.swift */; };
+		78C9B8322A430A3C00DBCF84 /* DICDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B8312A430A3C00DBCF84 /* DICDataManager.swift */; };
 		9972D0EECBD29EFFD9642DCD768D9B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AE2CBE0A08BE96D17C448F93BF89C45A /* DeviceInfoCollector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31871734E9EC559182006921D5F66451 /* DeviceInfoCollector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFBD81650334B02B0D9E166D27B614AC /* Pods-DeviceInfoCollector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EF215A629EA36E0EE0AB9A72F078AD /* Pods-DeviceInfoCollector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +56,10 @@
 		725FC1B63421E467DD2838483A3DCD06 /* Pods-DeviceInfoCollector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceInfoCollector_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78C9B8292A42DCF000DBCF84 /* DICModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DICModels.swift; sourceTree = "<group>"; };
+		78C9B82B2A42FF2A00DBCF84 /* DICKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DICKeyManager.swift; sourceTree = "<group>"; };
+		78C9B82D2A42FF5E00DBCF84 /* DICJailBrokenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DICJailBrokenHelper.swift; sourceTree = "<group>"; };
+		78C9B82F2A42FFDA00DBCF84 /* DICLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DICLocationManager.swift; sourceTree = "<group>"; };
+		78C9B8312A430A3C00DBCF84 /* DICDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DICDataManager.swift; sourceTree = "<group>"; };
 		7C4A8A6D54B24FA1839145756FA687AE /* DeviceInfoCollector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceInfoCollector-prefix.pch"; sourceTree = "<group>"; };
 		86A8EC572BC678A781959301226A340A /* DeviceInfoCollector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceInfoCollector-dummy.m"; sourceTree = "<group>"; };
 		8A140DAE61CD76EDC73FCCE2E6E2BB52 /* Pods-DeviceInfoCollector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceInfoCollector_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -139,6 +147,10 @@
 			isa = PBXGroup;
 			children = (
 				78C9B8292A42DCF000DBCF84 /* DICModels.swift */,
+				78C9B82B2A42FF2A00DBCF84 /* DICKeyManager.swift */,
+				78C9B82D2A42FF5E00DBCF84 /* DICJailBrokenHelper.swift */,
+				78C9B82F2A42FFDA00DBCF84 /* DICLocationManager.swift */,
+				78C9B8312A430A3C00DBCF84 /* DICDataManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -396,7 +408,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C9B8302A42FFDA00DBCF84 /* DICLocationManager.swift in Sources */,
 				78C9B82A2A42DCF000DBCF84 /* DICModels.swift in Sources */,
+				78C9B82E2A42FF5E00DBCF84 /* DICJailBrokenHelper.swift in Sources */,
+				78C9B82C2A42FF2A00DBCF84 /* DICKeyManager.swift in Sources */,
+				78C9B8322A430A3C00DBCF84 /* DICDataManager.swift in Sources */,
 				1F6DF7F87695E209ECC0049E5D8B34A6 /* DeviceInfoCollector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
